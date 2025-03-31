@@ -2164,6 +2164,199 @@
     unbzip2-stream "1.4.3"
     yargs "17.7.2"
 
+"@react-pdf/fns@https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/fns?master":
+  version "3.1.2"
+  uid df6bb64fe411620a29f6beebca4342b28512a90e47dddd139e200c99c8461590f8f15f8256c99178d508966fdc4a5a83489146c8355052ac3e9591fcf3ef0a05
+  resolved "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/fns?master#df6bb64fe411620a29f6beebca4342b28512a90e47dddd139e200c99c8461590f8f15f8256c99178d508966fdc4a5a83489146c8355052ac3e9591fcf3ef0a05"
+
+"@react-pdf/fns@https://gitpkg.vercel.app/smartgrade/react-pdf/packages/fns?master":
+  version "3.1.2"
+  uid "29dafa5331b5a5c1d7789159d39f4ad62085251645bea57802fa0de86cde42953c35699deb29e87e41cf2e53755a762324fb2c8708fdf00e9f72fad9614e0d29"
+  resolved "https://gitpkg.vercel.app/smartgrade/react-pdf/packages/fns?master#29dafa5331b5a5c1d7789159d39f4ad62085251645bea57802fa0de86cde42953c35699deb29e87e41cf2e53755a762324fb2c8708fdf00e9f72fad9614e0d29"
+
+"@react-pdf/font@https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/font?master":
+  version "4.0.2"
+  resolved "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/font?master#d48b9b21bddda4a0d6b6d2dc82da911a5d77223a8416c0f09cbd2b75d105627823bdcc9584916bf886c917a2b00f0a00163d073043c7422380a82b6b22c6f4f4"
+  dependencies:
+    "@react-pdf/pdfkit" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/pdfkit?master"
+    "@react-pdf/types" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/types?master"
+    fontkit "^2.0.2"
+    is-url "^1.2.4"
+
+"@react-pdf/font@https://gitpkg.vercel.app/smartgrade/react-pdf/packages/font?master":
+  version "4.0.2"
+  uid f56110b845420c2b8850610eea22f20aa7883491971b49fd29fe75d8e89841d9dba13824c3e820f76d2feb661804c5de202644a85ab109da2dc196eaa3c4087b
+  resolved "https://gitpkg.vercel.app/smartgrade/react-pdf/packages/font?master#f56110b845420c2b8850610eea22f20aa7883491971b49fd29fe75d8e89841d9dba13824c3e820f76d2feb661804c5de202644a85ab109da2dc196eaa3c4087b"
+  dependencies:
+    "@react-pdf/pdfkit" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/pdfkit?master"
+    "@react-pdf/types" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/types?master"
+    fontkit "^2.0.2"
+    is-url "^1.2.4"
+
+"@react-pdf/image@https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/image?master":
+  version "3.0.3"
+  resolved "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/image?master#ef4d845fa651618223176e4404b892e7b787113f3c0bce58d4991dabb4ffba65a9536a60f1ad1d980c95974656a9cd854c159aec1c78363642421d1c0a40e06e"
+  dependencies:
+    "@react-pdf/png-js" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/png-js?master"
+    jay-peg "^1.1.1"
+
+"@react-pdf/image@https://gitpkg.vercel.app/smartgrade/react-pdf/packages/image?master":
+  version "3.0.3"
+  resolved "https://gitpkg.vercel.app/smartgrade/react-pdf/packages/image?master#01ed1712795c3311dbf1c8c834fb031c9f6f8369d6de220aa9095edb3ea5eacef4e68c04b8508d9106f1762094f7e3ce5b96e201b84030177b692aa498b4928b"
+  dependencies:
+    "@react-pdf/png-js" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/png-js?master"
+    jay-peg "^1.1.1"
+
+"@react-pdf/layout@https://gitpkg.vercel.app/smartgrade/react-pdf/packages/layout?master":
+  version "4.4.0"
+  uid c0688ac271f47b7761308a5f8e09762cab1902df0b62c05689100aa6f6f100b9f418ce49c25f53aafe78359b334a4a9b545348df0b3c5efbb94a77454cfe2b7e
+  resolved "https://gitpkg.vercel.app/smartgrade/react-pdf/packages/layout?master#c0688ac271f47b7761308a5f8e09762cab1902df0b62c05689100aa6f6f100b9f418ce49c25f53aafe78359b334a4a9b545348df0b3c5efbb94a77454cfe2b7e"
+  dependencies:
+    "@react-pdf/fns" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/fns?master"
+    "@react-pdf/image" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/image?master"
+    "@react-pdf/primitives" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/primitives?master"
+    "@react-pdf/stylesheet" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/stylesheet?master"
+    "@react-pdf/textkit" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/textkit?master"
+    "@react-pdf/types" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/types?master"
+    emoji-regex "^10.3.0"
+    queue "^6.0.1"
+    yoga-layout "^3.2.1"
+
+"@react-pdf/pdfkit@https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/pdfkit?master":
+  version "4.0.3"
+  resolved "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/pdfkit?master#e87f8eac2095cead4d6e34f8040bb3ce0f0b2653decf2802053c2ff175a143583bb70a40fdafcece12a11a46c8bdf9825796f6b2c0564ba67e8645b151790cf7"
+  dependencies:
+    "@babel/runtime" "^7.20.13"
+    "@react-pdf/png-js" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/png-js?master"
+    browserify-zlib "^0.2.0"
+    crypto-js "^4.2.0"
+    fontkit "^2.0.2"
+    jay-peg "^1.1.1"
+    linebreak "^1.1.0"
+    vite-compatible-readable-stream "^3.6.1"
+
+"@react-pdf/pdfkit@https://gitpkg.vercel.app/smartgrade/react-pdf/packages/pdfkit?master":
+  version "4.0.3"
+  uid b1b5d83e71878ac7076178c201cccbb65106c183b15680bf732184a46327d50b93cb43bc0b5a12102b2695dc0b31928fcc8a4512c07cf0dd804ee40681e61290
+  resolved "https://gitpkg.vercel.app/smartgrade/react-pdf/packages/pdfkit?master#b1b5d83e71878ac7076178c201cccbb65106c183b15680bf732184a46327d50b93cb43bc0b5a12102b2695dc0b31928fcc8a4512c07cf0dd804ee40681e61290"
+  dependencies:
+    "@babel/runtime" "^7.20.13"
+    "@react-pdf/png-js" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/png-js?master"
+    browserify-zlib "^0.2.0"
+    crypto-js "^4.2.0"
+    fontkit "^2.0.2"
+    jay-peg "^1.1.1"
+    linebreak "^1.1.0"
+    vite-compatible-readable-stream "^3.6.1"
+
+"@react-pdf/png-js@https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/png-js?master":
+  version "3.0.0"
+  uid "5c56249d9707e7c7ad76d30ee17c141fea862fd3629bedc55234e76bc694bfe42a9269c42c56a93620eb5cd7720c77cbc0da26ec7d47f1234763a9beffa8f09d"
+  resolved "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/png-js?master#5c56249d9707e7c7ad76d30ee17c141fea862fd3629bedc55234e76bc694bfe42a9269c42c56a93620eb5cd7720c77cbc0da26ec7d47f1234763a9beffa8f09d"
+  dependencies:
+    browserify-zlib "^0.2.0"
+
+"@react-pdf/png-js@https://gitpkg.vercel.app/smartgrade/react-pdf/packages/png-js?master":
+  version "3.0.0"
+  uid a0f0c0b7aa7865086ebe3bd0f89ad2a75ecba423455c6be5ac679627b0f26fa40c4ca80b35f7bcbd44fd1d70a828995e53c9768d3d2089adfda2f98e1a5cabec
+  resolved "https://gitpkg.vercel.app/smartgrade/react-pdf/packages/png-js?master#a0f0c0b7aa7865086ebe3bd0f89ad2a75ecba423455c6be5ac679627b0f26fa40c4ca80b35f7bcbd44fd1d70a828995e53c9768d3d2089adfda2f98e1a5cabec"
+  dependencies:
+    browserify-zlib "^0.2.0"
+
+"@react-pdf/primitives@https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/primitives?master":
+  version "4.1.1"
+  uid "851a137e559b9568e04a37b76fb65261a566f9d85cce83afb44794e7f74647f84d69d65bafd66662b8670e75b3412ee3485816de463b7eec35092166a5c9d908"
+  resolved "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/primitives?master#851a137e559b9568e04a37b76fb65261a566f9d85cce83afb44794e7f74647f84d69d65bafd66662b8670e75b3412ee3485816de463b7eec35092166a5c9d908"
+
+"@react-pdf/primitives@https://gitpkg.vercel.app/smartgrade/react-pdf/packages/primitives?master":
+  version "4.1.1"
+  uid dbdf0d2c5a04f5f456b22a3c60b2b2b45aa0faf8e24fc69c33d823205f5fce7ef01c374774bc879a3d76230da4f7f19d3550413818221baf85f78075ae9cc5df
+  resolved "https://gitpkg.vercel.app/smartgrade/react-pdf/packages/primitives?master#dbdf0d2c5a04f5f456b22a3c60b2b2b45aa0faf8e24fc69c33d823205f5fce7ef01c374774bc879a3d76230da4f7f19d3550413818221baf85f78075ae9cc5df"
+
+"@react-pdf/reconciler@https://gitpkg.vercel.app/smartgrade/react-pdf/packages/reconciler?master":
+  version "1.1.4"
+  resolved "https://gitpkg.vercel.app/smartgrade/react-pdf/packages/reconciler?master#f3f21d25976ccf4ce40212d97fd80aa6a51728c745ca8632910dcedf07ced15f6587b8031852878151598f4bc2260b945d81fd0385fa682075541ec9a5f1f95c"
+  dependencies:
+    object-assign "^4.1.1"
+    scheduler "0.25.0-rc-603e6108-20241029"
+
+"@react-pdf/render@https://gitpkg.vercel.app/smartgrade/react-pdf/packages/render?master":
+  version "4.3.0"
+  resolved "https://gitpkg.vercel.app/smartgrade/react-pdf/packages/render?master#fe17246f98fd66c88cc7788231dc23e4d22c66b7a3743624f622a409abd6d7f637427d2fdc37de98325b7b04af6f6a904943c9dc731cf68a146e0408c4325df7"
+  dependencies:
+    "@babel/runtime" "^7.20.13"
+    "@react-pdf/fns" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/fns?master"
+    "@react-pdf/primitives" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/primitives?master"
+    "@react-pdf/textkit" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/textkit?master"
+    "@react-pdf/types" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/types?master"
+    abs-svg-path "^0.1.1"
+    color-string "^1.9.1"
+    normalize-svg-path "^1.1.0"
+    parse-svg-path "^0.1.2"
+    svg-arc-to-cubic-bezier "^3.2.0"
+
+"@react-pdf/stylesheet@https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/stylesheet?master":
+  version "6.1.0"
+  uid "9b4f2d1d05ea153efc862b04c4c0a7207fad572ee932ae36533ab3f4f858309555865d9e8768fbbfd21750eea0f18f06986545c4014ad8fa5034051c740d6974"
+  resolved "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/stylesheet?master#9b4f2d1d05ea153efc862b04c4c0a7207fad572ee932ae36533ab3f4f858309555865d9e8768fbbfd21750eea0f18f06986545c4014ad8fa5034051c740d6974"
+  dependencies:
+    "@react-pdf/fns" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/fns?master"
+    "@react-pdf/types" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/types?master"
+    color-string "^1.9.1"
+    hsl-to-hex "^1.0.0"
+    media-engine "^1.0.3"
+    postcss-value-parser "^4.1.0"
+
+"@react-pdf/stylesheet@https://gitpkg.vercel.app/smartgrade/react-pdf/packages/stylesheet?master":
+  version "6.1.0"
+  uid "985b25f6d135196904ff8b74589912619d3daaa9927d9a967a0a4c10960ab83155e187df47cda39a1e63e2b707764a65dbbe28e318d5511e8fb1287f331429fc"
+  resolved "https://gitpkg.vercel.app/smartgrade/react-pdf/packages/stylesheet?master#985b25f6d135196904ff8b74589912619d3daaa9927d9a967a0a4c10960ab83155e187df47cda39a1e63e2b707764a65dbbe28e318d5511e8fb1287f331429fc"
+  dependencies:
+    "@react-pdf/fns" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/fns?master"
+    "@react-pdf/types" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/types?master"
+    color-string "^1.9.1"
+    hsl-to-hex "^1.0.0"
+    media-engine "^1.0.3"
+    postcss-value-parser "^4.1.0"
+
+"@react-pdf/textkit@https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/textkit?master":
+  version "6.0.0"
+  uid fe3326db669a88c3799649bd2bbc349148e4afff2f6b32d0addc2705c491fdef63bbfe57dec8e932efcd6599ecdf779710915432bba62b35886d33c6e99f344a
+  resolved "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/textkit?master#fe3326db669a88c3799649bd2bbc349148e4afff2f6b32d0addc2705c491fdef63bbfe57dec8e932efcd6599ecdf779710915432bba62b35886d33c6e99f344a"
+  dependencies:
+    "@react-pdf/fns" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/fns?master"
+    bidi-js "^1.0.2"
+    hyphen "^1.6.4"
+    unicode-properties "^1.4.1"
+
+"@react-pdf/textkit@https://gitpkg.vercel.app/smartgrade/react-pdf/packages/textkit?master":
+  version "6.0.0"
+  uid "2937a36acb3a6656cf2189909de84b0ab95d1a7727cd6b6f056ca7f674b81b838d70f799777354d10bf6f55c66bf8f735444f5ff577b2078a20f62c71d25abe1"
+  resolved "https://gitpkg.vercel.app/smartgrade/react-pdf/packages/textkit?master#2937a36acb3a6656cf2189909de84b0ab95d1a7727cd6b6f056ca7f674b81b838d70f799777354d10bf6f55c66bf8f735444f5ff577b2078a20f62c71d25abe1"
+  dependencies:
+    "@react-pdf/fns" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/fns?master"
+    bidi-js "^1.0.2"
+    hyphen "^1.6.4"
+    unicode-properties "^1.4.1"
+
+"@react-pdf/types@https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/types?master":
+  version "2.9.0"
+  uid f40d7927fe6ed76f315ee13809654f9c991fcdaebade8021bf47a02670a346e6133edacfef39f7cf2b06aecc4a8aee500163f353e671bbc2d787c48853ee2581
+  resolved "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/types?master#f40d7927fe6ed76f315ee13809654f9c991fcdaebade8021bf47a02670a346e6133edacfef39f7cf2b06aecc4a8aee500163f353e671bbc2d787c48853ee2581"
+  dependencies:
+    "@react-pdf/font" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/font?master"
+    "@react-pdf/primitives" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/primitives?master"
+    "@react-pdf/stylesheet" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/stylesheet?master"
+
+"@react-pdf/types@https://gitpkg.vercel.app/smartgrade/react-pdf/packages/types?master":
+  version "2.9.0"
+  uid fc824409899cf2f136e3c04e1500995589067191b211c57328fac4d599d1579a9e594e1660a32c189e3b2d2eba1b879194e63a79b5b7cf91c9b05867d51a10ff
+  resolved "https://gitpkg.vercel.app/smartgrade/react-pdf/packages/types?master#fc824409899cf2f136e3c04e1500995589067191b211c57328fac4d599d1579a9e594e1660a32c189e3b2d2eba1b879194e63a79b5b7cf91c9b05867d51a10ff"
+  dependencies:
+    "@react-pdf/font" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/font?master"
+    "@react-pdf/primitives" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/primitives?master"
+    "@react-pdf/stylesheet" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/stylesheet?master"
+
 "@rollup/plugin-alias@^5.1.0":
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-alias/-/plugin-alias-5.1.0.tgz#99a94accc4ff9a3483be5baeedd5d7da3b597e93"

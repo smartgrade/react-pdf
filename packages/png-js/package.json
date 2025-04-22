@@ -1,5 +1,5 @@
 {
-  "name": "@react-pdf/png-js",
+  "name": "smartgrade-react-pdf-png-js",
   "description": "A PNG decoder in JS",
   "version": "3.0.0",
   "license": "MIT",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/diegomura/react-pdf.git",
+    "url": "https://github.com/smartgrade/react-pdf.git",
     "directory": "packages/png-js"
   },
   "author": {
@@ -27,5 +27,8 @@
   ],
   "dependencies": {
     "browserify-zlib": "^0.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

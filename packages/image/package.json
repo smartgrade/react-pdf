@@ -1,10 +1,10 @@
 {
-  "name": "@react-pdf/image",
+  "name": "smartgrade-react-pdf-image",
   "version": "3.0.3",
   "license": "MIT",
   "description": "Parses the images in png or jpeg format for react-pdf document",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
-  "homepage": "https://github.com/diegomura/react-pdf#readme",
+  "homepage": "https://github.com/smartgrade/react-pdf#readme",
   "type": "module",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/diegomura/react-pdf.git",
+    "url": "https://github.com/smartgrade/react-pdf.git",
     "directory": "packages/image"
   },
   "scripts": {
@@ -23,10 +23,13 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@react-pdf/png-js": "^3.0.0",
+    "smartgrade-react-pdf-png-js": "*",
     "jay-peg": "^1.1.1"
   },
   "files": [
     "lib"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }

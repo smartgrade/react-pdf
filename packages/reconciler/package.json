@@ -1,16 +1,16 @@
 {
-  "name": "@react-pdf/reconciler",
+  "name": "smartgrade-react-pdf-reconciler",
   "version": "1.1.4",
   "license": "MIT",
   "description": "Define uninitialized elements",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
-  "homepage": "https://github.com/diegomura/react-pdf#readme",
+  "homepage": "https://github.com/smartgrade/react-pdf#readme",
   "type": "module",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/diegomura/react-pdf.git",
+    "url": "https://github.com/smartgrade/react-pdf.git",
     "directory": "packages/reconciler"
   },
   "scripts": {
@@ -35,5 +35,8 @@
     "react-reconciler-23": "npm:react-reconciler@0.23.0",
     "react-reconciler-31": "npm:react-reconciler@0.31.0-rc-603e6108-20241029",
     "recast": "^0.23.9"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

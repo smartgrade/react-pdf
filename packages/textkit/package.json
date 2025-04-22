@@ -1,5 +1,5 @@
 {
-  "name": "@react-pdf/textkit",
+  "name": "smartgrade-react-pdf-textkit",
   "license": "MIT",
   "version": "6.0.0",
   "description": "An advanced text layout framework",
@@ -8,7 +8,7 @@
   "types": "./lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/diegomura/react-pdf.git",
+    "url": "https://github.com/smartgrade/react-pdf.git",
     "directory": "packages/textkit"
   },
   "contributors": [
@@ -25,12 +25,15 @@
     "lib"
   ],
   "dependencies": {
-    "@react-pdf/fns": "3.1.2",
+    "smartgrade-react-pdf-fns": "*",
     "bidi-js": "^1.0.2",
     "hyphen": "^1.6.4",
     "unicode-properties": "^1.4.1"
   },
   "devDependencies": {
     "@types/fontkit": "^2.0.7"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

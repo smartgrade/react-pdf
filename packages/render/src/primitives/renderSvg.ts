@@ -1,12 +1,12 @@
-import * as P from '@react-pdf/primitives';
-import { isNil } from '@react-pdf/fns';
-import { Transform } from '@react-pdf/stylesheet';
+import * as P from 'smartgrade-react-pdf-primitives';
+import { isNil } from 'smartgrade-react-pdf-fns';
+import { Transform } from 'smartgrade-react-pdf-stylesheet';
 import {
   SafeLinearGradientNode,
   SafeNode,
   SafeRadialGradientNode,
   SafeSvgNode,
-} from '@react-pdf/layout';
+} from 'smartgrade-react-pdf-layout';
 
 import renderPath from './renderPath';
 import renderRect from './renderRect';

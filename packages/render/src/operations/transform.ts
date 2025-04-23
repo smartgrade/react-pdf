@@ -1,5 +1,5 @@
-import { SafeNode } from '@react-pdf/layout';
-import { Transform } from '@react-pdf/stylesheet';
+import { SafeNode } from 'smartgrade-react-pdf-layout';
+import { Transform } from 'smartgrade-react-pdf-stylesheet';
 
 import { Context } from '../types';
 

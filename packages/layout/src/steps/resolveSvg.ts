@@ -1,6 +1,6 @@
-import * as P from '@react-pdf/primitives';
-import FontStore from '@react-pdf/font';
-import resolveStyle, { transformColor } from '@react-pdf/stylesheet';
+import * as P from 'smartgrade-react-pdf-primitives';
+import FontStore from 'smartgrade-react-pdf-font';
+import resolveStyle, { transformColor } from 'smartgrade-react-pdf-stylesheet';
 import {
   pick,
   evolve,
@@ -8,7 +8,7 @@ import {
   mapValues,
   matchPercent,
   parseFloat,
-} from '@react-pdf/fns';
+} from 'smartgrade-react-pdf-fns';
 
 import layoutText from '../svg/layoutText';
 import replaceDefs from '../svg/replaceDefs';

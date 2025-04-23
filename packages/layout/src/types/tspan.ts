@@ -1,6 +1,6 @@
-import * as P from '@react-pdf/primitives';
-import { SafeStyle, Style } from '@react-pdf/stylesheet';
-import { Paragraph } from '@react-pdf/textkit';
+import * as P from 'smartgrade-react-pdf-primitives';
+import { SafeStyle, Style } from 'smartgrade-react-pdf-stylesheet';
+import { Paragraph } from 'smartgrade-react-pdf-textkit';
 
 import {
   SVGPresentationAttributes,

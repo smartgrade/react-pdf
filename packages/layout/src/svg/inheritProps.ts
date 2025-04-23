@@ -1,5 +1,5 @@
-import * as P from '@react-pdf/primitives';
-import { pick, without } from '@react-pdf/fns';
+import * as P from 'smartgrade-react-pdf-primitives';
+import { pick, without } from 'smartgrade-react-pdf-fns';
 import { SafeNode } from '../types';
 
 const BASE_SVG_INHERITED_PROPS = [

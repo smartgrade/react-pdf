@@ -1,5 +1,5 @@
 import * as Yoga from 'yoga-layout/load';
-import FontStore from '@react-pdf/font';
+import FontStore from 'smartgrade-react-pdf-font';
 
 import layoutText from './layoutText';
 import linesWidth from './linesWidth';

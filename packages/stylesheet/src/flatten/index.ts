@@ -1,4 +1,4 @@
-import { compose, castArray } from '@react-pdf/fns';
+import { compose, castArray } from 'smartgrade-react-pdf-fns';
 import { Style } from '../types';
 
 /**

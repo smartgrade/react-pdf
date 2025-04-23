@@ -1,5 +1,5 @@
-import * as P from '@react-pdf/primitives';
-import FontStore from '@react-pdf/font';
+import * as P from 'smartgrade-react-pdf-primitives';
+import FontStore from 'smartgrade-react-pdf-font';
 
 import layoutText from '../text/layoutText';
 import { SafeNode, SafeSvgNode, SafeTextNode } from '../types';

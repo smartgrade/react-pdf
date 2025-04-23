@@ -1,6 +1,6 @@
 {
   "name": "smartgrade-react-pdf-renderer",
-  "version": "4.3.0",
+  "version": "4.3.5",
   "license": "MIT",
   "description": "Create PDF files on the browser and server",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
@@ -20,7 +20,8 @@
     "watch": "rimraf ./lib && rollup -c -w",
     "size": "size-limit",
     "lint": "eslint src",
-    "test": "vitest && vitest --config vitest.browser.config.js"
+    "test": "vitest && vitest --config vitest.browser.config.js",
+    "prepublishOnly": "yarn build"
   },
   "dependencies": {
     "@babel/runtime": "^7.20.13",

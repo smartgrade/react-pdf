@@ -1,5 +1,5 @@
-import { capitalize, upperFirst } from '@react-pdf/fns';
-import { SafeStyle } from '@react-pdf/stylesheet';
+import { capitalize, upperFirst } from 'smartgrade-react-pdf-fns';
+import { SafeStyle } from 'smartgrade-react-pdf-stylesheet';
 
 /**
  * Apply transformation to text string

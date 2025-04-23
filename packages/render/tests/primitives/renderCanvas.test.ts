@@ -1,10 +1,10 @@
 import { describe, expect, test } from 'vitest';
 
-import * as P from '@react-pdf/primitives';
+import * as P from 'smartgrade-react-pdf-primitives';
 
 import createCTX from '../ctx';
 import renderCanvas from '../../src/primitives/renderCanvas';
-import { Box, SafeCanvasNode } from '@react-pdf/layout';
+import { Box, SafeCanvasNode } from 'smartgrade-react-pdf-layout';
 
 describe('primitive renderCanvas', () => {
   test('should be scoped operation', () => {

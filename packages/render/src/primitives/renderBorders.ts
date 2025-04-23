@@ -1,6 +1,6 @@
 // Ref: https://www.w3.org/TR/css-backgrounds-3/#borders
 
-import { Box, SafeNode } from '@react-pdf/layout';
+import { Box, SafeNode } from 'smartgrade-react-pdf-layout';
 import { Context } from '../types';
 
 type SafeBorderStyle = {

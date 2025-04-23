@@ -1,4 +1,4 @@
-# @react-pdf/fns
+# smartgrade-react-pdf-fns
 
 ## 3.1.2
 

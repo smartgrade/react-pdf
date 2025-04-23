@@ -1,6 +1,6 @@
 {
   "name": "smartgrade-react-pdf-image",
-  "version": "3.0.3",
+  "version": "3.0.7",
   "license": "MIT",
   "description": "Parses the images in png or jpeg format for react-pdf document",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
@@ -20,7 +20,8 @@
     "test": "vitest",
     "build": "rimraf ./lib && rollup -c",
     "watch": "rimraf ./lib && rollup -c -w",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "yarn build"
   },
   "dependencies": {
     "smartgrade-react-pdf-png-js": "*",

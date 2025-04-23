@@ -1,4 +1,4 @@
-import * as P from '@react-pdf/primitives';
+import * as P from 'smartgrade-react-pdf-primitives';
 
 interface StopProps {
   offset: string | number;

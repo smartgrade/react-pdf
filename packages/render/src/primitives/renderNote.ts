@@ -1,4 +1,4 @@
-import { SafeNoteNode } from '@react-pdf/layout';
+import { SafeNoteNode } from 'smartgrade-react-pdf-layout';
 
 import { Context } from '../types';
 

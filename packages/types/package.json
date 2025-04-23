@@ -1,6 +1,6 @@
 {
   "name": "smartgrade-react-pdf-types",
-  "version": "2.9.0",
+  "version": "2.9.4",
   "license": "MIT",
   "description": "React-pdf TypeScript definitions",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",

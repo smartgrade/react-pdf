@@ -20,7 +20,7 @@
     "prepublish": "lerna run build",
     "lint": "eslint packages",
     "test": "vitest",
-    "dev": "lerna run dev --scope @react-pdf/examples --",
+    "dev": "lerna run dev --scope smartgrade-react-pdf-examples --",
     "changeset": "changeset",
     "version-packages": "changeset version",
     "release": "changeset publish"

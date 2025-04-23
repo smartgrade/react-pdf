@@ -1,9 +1,9 @@
-import { SafeStyle, Style } from '@react-pdf/stylesheet';
-import * as P from '@react-pdf/primitives';
+import { SafeStyle, Style } from 'smartgrade-react-pdf-stylesheet';
+import * as P from 'smartgrade-react-pdf-primitives';
 import { YogaNode } from 'yoga-layout/load';
 
 import { Box, NodeProps, Origin } from './base';
-import { Image } from '@react-pdf/image';
+import { Image } from 'smartgrade-react-pdf-image';
 
 type HTTPMethod = 'GET' | 'HEAD' | 'POST' | 'PUT' | 'DELETE' | 'PATCH';
 

@@ -1,4 +1,4 @@
-# @react-pdf/reconciler
+# smartgrade-react-pdf-reconciler
 
 ## 1.1.4
 

@@ -1,4 +1,4 @@
-import { SafeCanvasNode } from '@react-pdf/layout';
+import { SafeCanvasNode } from 'smartgrade-react-pdf-layout';
 import { Context } from '../types';
 
 const availableMethods = [

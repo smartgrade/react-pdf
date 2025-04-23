@@ -1,4 +1,4 @@
-import { SafeNode } from '@react-pdf/layout';
+import { SafeNode } from 'smartgrade-react-pdf-layout';
 import { Context } from '../types';
 
 const isString = (value: any): value is string => typeof value === 'string';

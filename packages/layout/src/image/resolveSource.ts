@@ -1,7 +1,7 @@
 import { SourceObject } from '../types';
 
 /**
- * Resolves `src` to `@react-pdf/image` interface.
+ * Resolves `src` to `smartgrade-react-pdf-image` interface.
  *
  * Also it handles factories and async sources.
  *

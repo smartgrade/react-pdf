@@ -1,4 +1,4 @@
-import { last, getUTF16Increment } from '@react-pdf/fns';
+import { last, getUTF16Increment } from 'smartgrade-react-pdf-fns';
 import { AttributedString, Font, Run } from '../../types';
 
 const IGNORED_CODE_POINTS = [173];

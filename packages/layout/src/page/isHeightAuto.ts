@@ -1,4 +1,4 @@
-import { isNil } from '@react-pdf/fns';
+import { isNil } from 'smartgrade-react-pdf-fns';
 import { SafePageNode } from '../types';
 
 /**

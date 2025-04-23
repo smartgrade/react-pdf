@@ -3,7 +3,7 @@ import {
   SafeListNode,
   SafeSelectNode,
   SafeTextInputNode,
-} from '@react-pdf/layout';
+} from 'smartgrade-react-pdf-layout';
 import { Context } from '../types';
 
 const clean = (options: Record<string, any>) => {

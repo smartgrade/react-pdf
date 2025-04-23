@@ -1,4 +1,4 @@
-import { evolve, matchPercent } from '@react-pdf/fns';
+import { evolve, matchPercent } from 'smartgrade-react-pdf-fns';
 import { Box, SafeNode } from '../types';
 
 const resolveRadius = (box: Box) => (value: number | `${string}%`) => {

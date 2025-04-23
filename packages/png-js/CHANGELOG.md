@@ -1,4 +1,4 @@
-# @react-pdf/png-js
+# smartgrade-react-pdf-png-js
 
 ## 3.0.0
 

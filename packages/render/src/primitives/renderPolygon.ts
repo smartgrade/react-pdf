@@ -1,4 +1,4 @@
-import { SafePolygonNode } from '@react-pdf/layout';
+import { SafePolygonNode } from 'smartgrade-react-pdf-layout';
 
 import { Context } from '../types';
 import parsePoints from '../svg/parsePoints';

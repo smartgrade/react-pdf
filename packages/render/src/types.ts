@@ -1,4 +1,4 @@
-import { Font } from '@react-pdf/textkit';
+import { Font } from 'smartgrade-react-pdf-textkit';
 import PDFKitDocument from 'pdfkit';
 import PDFKitReference from 'pdfkit/js/reference';
 

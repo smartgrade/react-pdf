@@ -8,7 +8,7 @@ const config = [
   {
     input: 'src/index.ts',
     output: { format: 'es', dir: 'lib' },
-    external: Object.keys(pkg.dependencies).concat(/@react-pdf/),
+    external: Object.keys(pkg.dependencies).concat(/smartgrade-react-pdf-.*?/),
     plugins: [typescript(), del({ targets: 'lib' })],
   },
   {

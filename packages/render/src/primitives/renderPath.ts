@@ -1,4 +1,4 @@
-import { SafePathNode } from '@react-pdf/layout';
+import { SafePathNode } from 'smartgrade-react-pdf-layout';
 import { Context } from '../types';
 
 const renderPath = (ctx: Context, node: SafePathNode) => {

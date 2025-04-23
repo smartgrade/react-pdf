@@ -3,8 +3,8 @@ import {
   SafeTextNode,
   SafeTspanNode,
   TextAnchor,
-} from '@react-pdf/layout';
-import { AttributedString, Run } from '@react-pdf/textkit';
+} from 'smartgrade-react-pdf-layout';
+import { AttributedString, Run } from 'smartgrade-react-pdf-textkit';
 
 import { Context } from '../types';
 import renderGlyphs from './renderGlyphs';

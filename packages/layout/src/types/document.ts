@@ -1,8 +1,8 @@
-import * as P from '@react-pdf/primitives';
+import * as P from 'smartgrade-react-pdf-primitives';
 
 import { PageNode, SafePageNode } from './page';
 import { YogaInstance } from './base';
-import { SafeStyle, Style } from '@react-pdf/stylesheet';
+import { SafeStyle, Style } from 'smartgrade-react-pdf-stylesheet';
 
 export type PDFVersion = '1.3' | '1.4' | '1.5' | '1.6' | '1.7' | '1.7ext3';
 

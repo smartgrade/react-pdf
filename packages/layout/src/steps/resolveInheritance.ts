@@ -1,6 +1,6 @@
-import * as P from '@react-pdf/primitives';
-import { pick, compose } from '@react-pdf/fns';
-import { SafeStyle } from '@react-pdf/stylesheet';
+import * as P from 'smartgrade-react-pdf-primitives';
+import { pick, compose } from 'smartgrade-react-pdf-fns';
+import { SafeStyle } from 'smartgrade-react-pdf-stylesheet';
 
 import { SafeNode } from '../types';
 

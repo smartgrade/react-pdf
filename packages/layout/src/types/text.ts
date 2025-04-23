@@ -1,8 +1,8 @@
-import * as P from '@react-pdf/primitives';
-import { SafeStyle, Style } from '@react-pdf/stylesheet';
-import { HyphenationCallback } from '@react-pdf/font';
+import * as P from 'smartgrade-react-pdf-primitives';
+import { SafeStyle, Style } from 'smartgrade-react-pdf-stylesheet';
+import { HyphenationCallback } from 'smartgrade-react-pdf-font';
 import { YogaNode } from 'yoga-layout/load';
-import { Paragraph } from '@react-pdf/textkit';
+import { Paragraph } from 'smartgrade-react-pdf-textkit';
 
 import { Box, NodeProps, Origin, RenderProp } from './base';
 import { SafeTextInstanceNode, TextInstanceNode } from './text-instance';

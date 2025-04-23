@@ -1,4 +1,4 @@
-import { parseFloat } from '@react-pdf/fns';
+import { parseFloat } from 'smartgrade-react-pdf-fns';
 
 import parseViewBox from './parseViewbox';
 import { SafeSvgNode } from '../types';

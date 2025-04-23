@@ -1,4 +1,4 @@
-import { isNil, upperFirst, matchPercent } from '@react-pdf/fns';
+import { isNil, upperFirst, matchPercent } from 'smartgrade-react-pdf-fns';
 import * as Yoga from 'yoga-layout/load';
 
 import { SafeNode } from '../types';

@@ -1,9 +1,9 @@
-import { isNil } from '@react-pdf/fns';
+import { isNil } from 'smartgrade-react-pdf-fns';
 
 import renderGlyphs from './renderGlyphs';
 import parseColor from '../utils/parseColor';
 import { Context } from '../types';
-import { SafeTextNode } from '@react-pdf/layout';
+import { SafeTextNode } from 'smartgrade-react-pdf-layout';
 import {
   Attachment,
   AttributedString,
@@ -11,7 +11,7 @@ import {
   Paragraph,
   Rect,
   Run,
-} from '@react-pdf/textkit';
+} from 'smartgrade-react-pdf-textkit';
 
 const DEST_REGEXP = /^#.+/;
 

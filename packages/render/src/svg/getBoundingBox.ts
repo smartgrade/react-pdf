@@ -1,4 +1,4 @@
-import * as P from '@react-pdf/primitives';
+import * as P from 'smartgrade-react-pdf-primitives';
 import absPath from 'abs-svg-path';
 import parsePath from 'parse-svg-path';
 import normalizePath from 'normalize-svg-path';
@@ -12,7 +12,7 @@ import {
   SafePathNode,
   SafePolylineNode,
   SafeRectNode,
-} from '@react-pdf/layout';
+} from 'smartgrade-react-pdf-layout';
 
 type Primitives = (typeof P)[keyof typeof P];
 

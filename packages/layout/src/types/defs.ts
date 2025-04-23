@@ -1,4 +1,4 @@
-import * as P from '@react-pdf/primitives';
+import * as P from 'smartgrade-react-pdf-primitives';
 import { ClipPathNode, SafeClipPathNode } from './clip-path';
 import { LinearGradientNode, SafeLinearGradientNode } from './linear-gradient';
 import { RadialGradientNode, SafeRadialGradientNode } from './radial-gradient';

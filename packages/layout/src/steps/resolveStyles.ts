@@ -1,5 +1,5 @@
-import * as P from '@react-pdf/primitives';
-import stylesheet, { Container, Style } from '@react-pdf/stylesheet';
+import * as P from 'smartgrade-react-pdf-primitives';
+import stylesheet, { Container, Style } from 'smartgrade-react-pdf-stylesheet';
 
 import {
   DocumentNode,

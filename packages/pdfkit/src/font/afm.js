@@ -1,6 +1,6 @@
 import fs from 'fs';
 import range from '../utils/range.js';
-import { getUTF16Increment } from '@react-pdf/fns';
+import { getUTF16Increment } from 'smartgrade-react-pdf-fns';
 
 const WIN_ANSI_MAP = {
   402: 131,

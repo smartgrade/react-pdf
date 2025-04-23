@@ -1,1 +1,1 @@
-export { Style } from '@react-pdf/stylesheet';
+export { Style } from 'smartgrade-react-pdf-stylesheet';

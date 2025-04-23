@@ -1,4 +1,4 @@
-import { SafePageNode } from '@react-pdf/layout';
+import { SafePageNode } from 'smartgrade-react-pdf-layout';
 import { Context } from '../types';
 
 const renderPage = (ctx: Context, node: SafePageNode) => {

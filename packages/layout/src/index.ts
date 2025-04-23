@@ -1,4 +1,4 @@
-import { asyncCompose } from '@react-pdf/fns';
+import { asyncCompose } from 'smartgrade-react-pdf-fns';
 
 import resolveSvg from './steps/resolveSvg';
 import resolveYoga from './steps/resolveYoga';

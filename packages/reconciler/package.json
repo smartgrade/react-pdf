@@ -1,6 +1,6 @@
 {
   "name": "smartgrade-react-pdf-reconciler",
-  "version": "1.1.4",
+  "version": "1.1.8",
   "license": "MIT",
   "description": "Define uninitialized elements",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
@@ -18,7 +18,8 @@
     "watch": "rimraf ./lib && rollup -c -w",
     "size": "size-limit",
     "lint": "eslint src",
-    "test": "vitest"
+    "test": "vitest",
+    "prepublishOnly": "yarn build"
   },
   "files": [
     "lib"

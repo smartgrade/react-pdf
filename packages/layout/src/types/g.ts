@@ -1,5 +1,5 @@
-import { SafeStyle, Style } from '@react-pdf/stylesheet';
-import * as P from '@react-pdf/primitives';
+import { SafeStyle, Style } from 'smartgrade-react-pdf-stylesheet';
+import * as P from 'smartgrade-react-pdf-primitives';
 
 import { LineNode, SafeLineNode } from './line';
 import { PolylineNode, SafePolylineNode } from './polyline';

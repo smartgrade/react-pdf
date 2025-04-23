@@ -1,4 +1,4 @@
-import { SafeNode } from '@react-pdf/layout';
+import { SafeNode } from 'smartgrade-react-pdf-layout';
 import { Context } from '../types';
 
 const CONTENT_COLOR = '#a1c6e7';

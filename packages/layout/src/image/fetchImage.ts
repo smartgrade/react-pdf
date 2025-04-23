@@ -1,4 +1,4 @@
-import resolveImage from '@react-pdf/image';
+import resolveImage from 'smartgrade-react-pdf-image';
 
 import getSource from './getSource';
 import resolveSource from './resolveSource';

@@ -1,5 +1,5 @@
-import * as P from '@react-pdf/primitives';
-import { SafeNode } from '@react-pdf/layout';
+import * as P from 'smartgrade-react-pdf-primitives';
+import { SafeNode } from 'smartgrade-react-pdf-layout';
 
 import renderSvg from './renderSvg';
 import renderText from './renderText';

@@ -1,5 +1,5 @@
-import * as P from '@react-pdf/primitives';
-import { compose } from '@react-pdf/fns';
+import * as P from 'smartgrade-react-pdf-primitives';
+import { compose } from 'smartgrade-react-pdf-fns';
 
 import { Node } from '../types';
 

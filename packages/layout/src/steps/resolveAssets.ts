@@ -1,6 +1,6 @@
-import * as P from '@react-pdf/primitives';
-import FontStore from '@react-pdf/font';
-import { castArray } from '@react-pdf/fns';
+import * as P from 'smartgrade-react-pdf-primitives';
+import FontStore from 'smartgrade-react-pdf-font';
+import { castArray } from 'smartgrade-react-pdf-fns';
 
 import fetchEmojis from '../text/emoji';
 import fetchImage from '../image/fetchImage';

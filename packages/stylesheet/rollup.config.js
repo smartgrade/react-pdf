@@ -8,7 +8,7 @@ import pkg from './package.json' with { type: 'json' };
 const config = {
   input: 'src/index.ts',
   output: { format: 'es', file: 'lib/index.js' },
-  external: [...Object.keys(pkg.dependencies), /@react-pdf/],
+  external: [...Object.keys(pkg.dependencies), /smartgrade-react-pdf-.*/],
   plugins: [typescript(), localResolve()],
 };
 

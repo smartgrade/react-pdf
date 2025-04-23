@@ -1,6 +1,6 @@
-import * as P from '@react-pdf/primitives';
-import { isNil, compose } from '@react-pdf/fns';
-import FontStore from '@react-pdf/font';
+import * as P from 'smartgrade-react-pdf-primitives';
+import { isNil, compose } from 'smartgrade-react-pdf-fns';
+import FontStore from 'smartgrade-react-pdf-font';
 
 import getMargin from '../node/getMargin';
 import getPadding from '../node/getPadding';
